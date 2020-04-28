@@ -54,6 +54,7 @@ cursor: pointer;
             border-radius: 50%;
             margin: 20px;
             cursor: pointer;
+                outline:none;
             }
 
 .menu__panel__green{
