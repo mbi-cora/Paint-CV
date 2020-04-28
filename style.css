@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.block{
+    position:fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.fas{
+margin: 20px;
+font-size: 32px;
+color: darkgray;
+cursor: pointer;
+}
+
+.paind__brush{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.manu__panel{
+ position:fixed;
+ top:0;
+ right: 0;
+ width: 200px;
+ display: flex;
+ flex-wrap: wrap;
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+}
+.menu__panel__red{
+    background-color: rgb(255, 0, 0);
+}
+.menu__panel__blue{
+    background-color: rgb(0, 0, 255);
+}
+            .btn{
+            height: 36px;
+            width: 36px;
+            border-radius: 50%;
+            margin: 20px;
+            cursor: pointer;
+            }
+
+.menu__panel__green{
+    background-color: rgb(0, 128, 0);
+}
+.menu__panel__black{
+    background-color:rgb(0, 0, 0);
+}
+.menu__panel__yellow{
+    background-color:rgb(255, 255, 0);
+}
+.menu__panel__brown{
+    background-color:rgb(165, 42, 42);
+}
+.menu__panel__orange{
+    background-color:rgb(255, 165, 0);
+}
+.menu__panel__pink{
+    background-color:rgb(255, 192, 203);
+}
+.menu__panel__violet{
+    background-color:rgb(238, 130, 238);
+}
+.menu__panel__grey{
+    background-color:rgb(128, 128, 128);
+}
